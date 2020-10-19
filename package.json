@@ -1,0 +1,21 @@
+{
+  "name": "sequelize-diego-romina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.5"
+  }
+}
