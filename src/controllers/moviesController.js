@@ -1,3 +1,5 @@
+const db = require('../database/models');
+
 const moviesController = {
 
     listar : function(req,res){
