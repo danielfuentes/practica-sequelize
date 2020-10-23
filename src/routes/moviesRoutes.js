@@ -5,6 +5,6 @@ const moviesController = require(path.resolve(__dirname, '../controllers/moviesC
 
 
 routes.get('/movies', moviesController.listar);
-
+routes.get('/movies/detail/:id', moviesController.detallePelicula)
 
 module.exports = routes;

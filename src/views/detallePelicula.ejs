@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detalle de la película</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="/css/master.css">-->
+</head>
+<body>
+    <h1 class="text-center bg-info text-white p-3" >Detalle de la Película</h1>
+    <h4>Nombre: <%= pelicula.title%></h4>
+    <h4>Puntaje: <%= pelicula.rating %></h4>
+    <h4>Premios: <%= pelicula.awards %></h4>
+    <h4>Duración: <%= (pelicula.length)%></h4>
+    <h4>Genero:  <%= pelicula.genres.name%></h4>
+    <button class="btn btn-success">Modificar</button>
+    <button class="btn btn-danger">Borrar</button>
+
+    
+</body>
+</html>
